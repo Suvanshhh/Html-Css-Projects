@@ -64,6 +64,41 @@ body,html{
 .text1{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 84.28px;
+    text-align: center;
+}
+
+.section4{
+    text-align: left;
+}
+
+.new{
+    display: flex;
+
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.fitem{
+    background-color: #e5e5e5;
+    border: 1px transparent;
+    margin: 12px;
+    width: 280px;
+    height: 320px;
+
+}
+
+.item1{
+    background-image: url(images/mobile.png);
+    height: fit-content;
+}
+.item2{
+    background-image: url(images/developer.png);
+}
+.item3{
+    background-image: url(images/uiux.png);
 }
