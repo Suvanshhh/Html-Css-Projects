@@ -1,0 +1,16 @@
+body{
+    background-color:black;
+}
+h1{
+    color:#FFFFFF;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+P{
+    color:aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+    font-weight: lighter;
+    text-decoration: dashed;
+    font-size: 18px;
+}
