@@ -85,20 +85,63 @@ body,html{
 }
 .fitem{
     background-color: #e5e5e5;
-    border: 1px transparent;
+    border: 2px transparent;
     margin: 12px;
     width: 280px;
     height: 320px;
+    border-radius:30px;
+    box-shadow: 2px;
 
 }
 
-.item1{
+.itemimg1{
     background-image: url(images/mobile.png);
-    height: fit-content;
+    width:280px;
+    height:150px;
+
+    
+
 }
-.item2{
+.itemimg2{
     background-image: url(images/developer.png);
+    width: 280px;
+    height: 150px;
+    
+
+
 }
-.item3{
+.itemimg3{
     background-image: url(images/uiux.png);
+    width: 280px;
+    height: 150px;
+    position:relative;
+    
+}
+.b1{
+    color: black;
+}
+.b2{
+    color: black;
+}
+.b3{
+    color: black;
+}
+.a1{
+    color: black;
+    text-align: justify;
+    width:260px;
+    height:120px;
+
+}
+
+.a2{
+    color: black;
+
+
+}
+
+.a3{
+    color: black;
+
+
 }

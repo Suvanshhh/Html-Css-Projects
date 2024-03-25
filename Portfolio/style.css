@@ -1,0 +1,17 @@
+**{
+    margin:0;
+    padding:0;
+
+}
+
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 56px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.8em;
+    color:yellow;
+    background-image: url(images/WebBackground.jpg);
+    background-size: 100%;
+    background-position: center;
+}
