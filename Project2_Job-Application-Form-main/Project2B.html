@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="Project2B.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box"> 
+            <h1><big>Job Application</big> <small>(Web)</small></h1>
+            <form action="">
+                <div class="form_container">
+
+                    <div class="form_control">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname" placeholder=" Ex:Suvansh" required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname" placeholder=" Ex:Choudhary" required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder=" Ex:123Suvansh@gmail.com" required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="job role">Job Role:</label>
+                    
+                
+                           <select id="job role" name="job role" placeholder="Select Job Role">
+                              <option value="hr">H.R.</option>
+                              <option value="pmanager">Product Manager</option>
+                              <option value="danalyst">Data Analyst</option>
+                           </select>
+                    </div>
+
+                    <div class="textarea_control">
+                        <label for="address">Address:</label>
+                        <textarea id="address" name="address"  row="4" cols="50" placeholder=" Ex:B6/32,Raj Colony,Kakarmatta" required></textarea>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" required>
+                    </div> 
+
+                    <div classs="form_control">  
+                        <label for="pcode">Pin Code:</label>
+                        <input type="number" id="pcode" name="pcode" required>
+                    </div>
+                        
+                    <div class="form_control">
+                        <label for="date">Start Date:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="cv">Upload Your CV:</label>
+                        <input type="file" id="cv" name="cv" required>
+                    </div>
+
+                </div>
+                  <div class="button_container">
+                    <button type="submit">Apply Now</button>
+                  </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
